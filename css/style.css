@@ -44,6 +44,11 @@ body {
   }
 }
 /* ======================= */
+.header {
+  width: 1802px;
+  height: 103px;
+}
+
 .header__nav {
   position: absolute;
   width: 1802px;
