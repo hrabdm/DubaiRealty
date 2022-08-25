@@ -11,7 +11,6 @@
 <body>
     <div class="container">
         <header class="header"> 
-            <!-- Добавил секцию HEADER вместо <div class="header" по симантике> -->
                 <div class="header__nav">
                     <div class="header__logo">
                         <div class="logo__rect">
@@ -33,23 +32,38 @@
                     <p class="header__phone">+38 (067) 444-67-34</p>
                 </div>
                 <div class="header__slider">
-                    
+
                 </div>
         </header>
         <main>
             <!-- Секция  -->
             <section class="latest-projects">
-                <div class="latest-projects__title__container">
-                    <h2>Latest projects</h2>
-                    <div class="title__sort">
-                        <span class="sort__item">All</span>
+                <div class="latest-projects__header-in__container">
+                    <h2 class="header-in__title">Latest projects</h2>
+                    <div class="header-in__sort">
+                        <span class="sort__item active">All</span>
                         <span class="sort__item">Building</span>
                         <span class="sort__item">Interior</span>
+                        <a href="#" class="sort__link">View all projects</a>
                     </div>
-                    <a href="#" class="title__link">View all projects</a>
                 </div>
                 <div class="latest-projects__slider">
-
+                    <div class="slider__slide-1 active">
+                        <h2 class="slide__title">Dubai</h2>
+                    </div>
+                    <div class="slider__slide-info">
+                        <h2 class="slide__title">Dubai</h2>
+                        <p class="slide__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.</p>
+                        <a class="slide__link" href="#">See project
+                            <img class="link__img" src="images/arrow.png" alt="">
+                        </a>
+                    </div>
+                    <div class="slider__slide-2">
+                        <h2 class="slide__title">Houses</h2>
+                    </div>
+                    <div class="slider__slide-3">
+                        <h2 class="slide__title">Villas</h2>
+                    </div>
                 </div>
                 <div class="latest-projects__dots">
                     <div class="dots__dot active"></div>
@@ -57,7 +71,7 @@
                     <div class="dots__dot"></div>
                 </div>
             </section>
-            <!--  -->
+            <!-- end -->
 
             <section></section>
 
