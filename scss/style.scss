@@ -1,10 +1,11 @@
 @import url(reset.css);
-@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,regular,500,600,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700);
-@import url(https://fonts.googleapis.com/css?family=Lexend:300);
-@import url(https://fonts.googleapis.com/css?family=Space+Grotesk:700);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,regular,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,500italic,700,700italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Lexend:300&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk:700&display=swap);
 @import url('http://fonts.cdnfonts.com/css/gilroy-bold');
 
+// TODO gilroy 700 600 600italic 500 400
 html,
 body {
     height: 100%;
