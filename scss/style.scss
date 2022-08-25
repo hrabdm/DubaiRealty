@@ -18,6 +18,22 @@ body {
     background: #272727;
 }
 
+.header__nav {
+    // position: absolute;
+    width: 1802px;
+    height: 63px;
+    margin: 20px 58px;
+}
+
+.header__logo {
+    box-sizing: border-box;
+    // position: absolute;
+    width: 40px;
+    height: 63px;
+    left: 0px;
+    top: 0px;
+    border: 2px solid #FCD54C;
+}
 
 /* ========================================= */
 .container {
