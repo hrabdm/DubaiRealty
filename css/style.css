@@ -118,7 +118,8 @@ body {
 .menu__item {
   position: relative;
   list-style-type: none;
-  margin-right: 50px;
+  cursor: pointer;
+  margin-right: 60px;
   padding: 0;
 }
 
@@ -139,4 +140,76 @@ body {
   top: 3px;
   background: linear-gradient(to top left, #FFFFFF 50%, #272727 50%);
   transform: rotate(45deg);
+}
+
+.header__btn {
+  position: absolute;
+  cursor: pointer;
+  width: 165px;
+  height: 41px;
+  left: 1200px;
+  top: 11px;
+  background: #FCD54C;
+}
+
+.header__btn p {
+  position: absolute;
+  width: 137px;
+  height: 16px;
+  left: 13px;
+  top: 13px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+}
+
+.en {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 1500px;
+  top: 22px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #FCD54C;
+}
+
+.ua {
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  left: 1530px;
+  top: 22px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #929292;
+}
+
+.header__phone {
+  position: absolute;
+  width: 150px;
+  height: 14px;
+  left: 1600px;
+  top: 20px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
 }
