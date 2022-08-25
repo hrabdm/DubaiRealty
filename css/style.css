@@ -45,13 +45,13 @@ body {
 }
 /* ======================= */
 .header {
-  width: 1802px;
+  width: 1800px;
   height: 103px;
 }
 
 .header__nav {
   position: absolute;
-  width: 1802px;
+  width: 1800px;
   height: 63px;
   margin: 20px 58px;
 }
