@@ -1,44 +1,47 @@
- *,
- *::before,
- *::after {
-     margin: 0;
-     padding: 0;
-     border: none;
-     box-sizing: border-box;
- }
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Lexend:300);
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk:700);
 
- a {
-     text-decoration: none;
- }
 
- ul,
- ol,
- li {
-     list-style: none;
- }
+html,
+body {
+    height: 100%;
+}
 
- img {
-     vertical-align: top;
- }
+body {
+    line-height: 1;
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    background: #272727;
+}
 
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
-     font-weight: inherit;
-     font-size: inherit;
- }
 
- html,
- body {
-     height: 100%;
- }
+/* ========================================= */
 
- body {
-     line-height: 1;
-    //  font-family: Manrope;
-    //  color: #333;
- }
- /* ========================================= */
+[class*="__container"] {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1199.98px) {
+    [class*="__container"] {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 990.98px) {
+    [class*="__container"] {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    [class*="__container"] {
+        max-width: none;
+        padding: 0px 15px;
+    }
+}
+
+/* ======================= */
