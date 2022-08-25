@@ -51,6 +51,11 @@ body {
 
 /* ======================= */
 
+.header {
+  width: 1802px;
+  height: 103px;
+}
+
 .header__nav {
     position: absolute;
     width: 1802px;
@@ -116,7 +121,6 @@ body {
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
-  
     display: flex;
     justify-content: left;
     padding: 0;
@@ -130,6 +134,106 @@ body {
     margin-right: 60px;
     padding: 0;
   }
+
+  .menu__item:hover {
+    color: #FCD54C;
+  }
+
+  .link__submenu {
+    box-sizing: border-box;
+    position: absolute;
+    width: 247px;
+    height: 110px;
+    left: 0;
+    top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background: #272727;
+    border: 1px solid #979797;
+  }
+
+  .submenu {
+    position: absolute;
+    width: 245px;
+    height: 36px;
+    left: 0;
+  }
+
+  .item__1 {
+    top: 0;
+    background: #272727;
+    cursor: pointer;
+  }
+
+  .item__1:hover {
+    background: #FCD54C;
+    color: #272727;
+  }
+
+  .item__2 {
+    top: 36px;
+    background: #272727;
+    cursor: pointer;
+  }
+
+  .item__2:hover {
+    background: #FCD54C;
+    color: #272727;
+  }
+
+  .item__3 {
+    top: 72px;
+    background: #272727;
+    cursor: pointer;
+  }
+
+  .item__3:hover {
+    background: #FCD54C;
+    color: #272727;
+  }
+
+  .item__1 p {
+    position: absolute;
+    width: 160px;
+    height: 17px;
+    left: 15px;
+    top: 9px;
+    font-family: 'Gilroy-bold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: initial;
+  }
+
+  .item__2 p {
+    position: absolute;
+    width: 154px;
+    height: 17px;
+    left: 15px;
+    top: 9px;
+    font-family: 'Gilroy-bold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: initial;
+  }
+
+  .item__3 p {
+    position: absolute;
+    width: 200px;
+    height: 17px;
+    left: 15px;
+    top: 9px;
+    font-family: 'Gilroy-bold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: initial;
+  }
   
   .link__line {
     position: absolute;
@@ -138,6 +242,7 @@ body {
     left: 0;
     top: 16px;
     background: #FFFFFF;
+    cursor: pointer;
   }
   
   .link__triangle {
