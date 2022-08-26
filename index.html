@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        <div class="header">
+        <header class="header">
             <div class="header__nav">
                 <div class="header__logo">
                     <div class="logo__rect">
@@ -24,58 +24,137 @@
                     <div class="link__line"></div>
                     <div class="link__triangle"></div>
                     <li class="menu__item link">BUY</li>
+                    <div class="link__submenu">
+                        <div class="submenu item__1">
+                            <p>Category number one</p>
+                        </div>
+                        <div class="submenu item__2">
+                            <p>Apartments in Dubai</p>
+                        </div>
+                        <div class="submenu item__3">
+                            <p>Category number twenty five</p>
+                        </div>
+                    </div>
                     <li class="menu__item">BLOG</li>
                     <li class="menu__item">ABOUT</li>
                     <li class="menu__item">CONTACT</li>
                 </ul>
+                <div class="header__btn">
+                    <p>Book a consultation</p>
+                </div>
+                <p class="en">EN</p>
+                <p class="ua">UA</p>
+                <p class="header__phone">+38 (067) 444-67-34</p>
             </div>
-        </div>
-        <section class="header-slider">
-            <div class="slider">
-                <div class="slider__img">
-                    <img src="/img/header-slider/1.png" alt="">
-                </div>
-                <div class="slider__button">
-                    <button id="prev">PREV</button>
-                    <img id="line" src="/img/header-slider/line.png" alt="">
-                    <button id="next">NEXT</button>
-                </div>
-                <div class="slider__select select">
-                    <div class="select__item active">
-                        <h2>01</h2>
-                        <p>Lorem Ipsum <br>
-                            Dolorem apset</p>
+        </header>
+        <main>
+            <section class="header-slider">
+                <div class="slider">
+                    <div class="slider__img">
                         <img src="/img/header-slider/1.png" alt="">
                     </div>
-                    <div class="select__item">
-                        <h2>02</h2>
-                        <p>Lorem Ipsum <br>
-                            Dolorem apset</p>
-                        <img src="/img/header-slider/2.png" alt="">
+                    <div class="slider__button">
+                        <button id="prev">PREV</button>
+                        <img id="line" src="/img/header-slider/line.png" alt="">
+                        <button id="next">NEXT</button>
                     </div>
-                    <div class="select__item">
-                        <h2>03</h2>
-                        <p>Lorem Ipsum <br>
-                            Dolorem apset</p>
-                        <img src="/img/header-slider/3.jpg" alt="">
+                    <div class="slider__select select">
+                        <div class="select__item active">
+                            <h2>01</h2>
+                            <p>Lorem Ipsum <br>
+                                Dolorem apset</p>
+                            <img src="/img/header-slider/1.png" alt="">
+                        </div>
+                        <div class="select__item">
+                            <h2>02</h2>
+                            <p>Lorem Ipsum <br>
+                                Dolorem apset</p>
+                            <img src="/img/header-slider/2.png" alt="">
+                        </div>
+                        <div class="select__item">
+                            <h2>03</h2>
+                            <p>Lorem Ipsum <br>
+                                Dolorem apset</p>
+                            <img src="/img/header-slider/3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slider__greeting greeting">
+                        <h3 class="greeting__pre">Lorem ipsum</h3>
+                        <h1 class="greeting__welcome">Welcome home <br><span class="accent">to</span> luxury</h1>
+                        <a class="greeting__link" href="#">Book a consultation <img src="/img/header-slider/Arrow.svg"
+                                alt=""></a>
+                    </div>
+                    <div class="slider__social social">
+                        <a class="social__item" href="http://"><img src="/img/header-slider/facebook.svg" alt=""></a>
+                        <a class="social__item" href="http://"><img src="/img/header-slider/twitter.svg" alt=""></a>
+                        <a class="social__item" href="http://"><img src="/img/header-slider/youtube.svg" alt=""></a>
+                        <a class="social__item" href="http://"><img src="/img/header-slider/instagram.svg" alt=""></a>
+                        <a class="social__item" href="http://"><img src="/img/header-slider/linkedin.svg" alt=""></a>
                     </div>
                 </div>
-                <div class="slider__greeting greeting">
-                    <h3 class="greeting__pre">Lorem ipsum</h3>
-                    <h1 class="greeting__welcome">Welcome home <br><span class="accent">to</span> luxury</h1>
-                    <a class="greeting__link" href="#">Book a consultation <img src="/img/header-slider/Arrow.svg"
-                            alt=""></a>
+            </section>
+            <!-- Секция  -->
+            <section class="latest-projects">
+                <div class="latest-projects__header-in__container">
+                    <h2 class="header-in__title">Latest projects</h2>
+                    <div class="header-in__sort">
+                        <span class="sort__item active">All</span>
+                        <span class="sort__item">Building</span>
+                        <span class="sort__item">Interior</span>
+                        <a href="#" class="sort__link">View all projects</a>
+                    </div>
                 </div>
-                <div class="slider__social social">
-                    <a class="social__item" href="http://"><img src="/img/header-slider/facebook.svg" alt=""></a>
-                    <a class="social__item" href="http://"><img src="/img/header-slider/twitter.svg" alt=""></a>
-                    <a class="social__item" href="http://"><img src="/img/header-slider/youtube.svg" alt=""></a>
-                    <a class="social__item" href="http://"><img src="/img/header-slider/instagram.svg" alt=""></a>
-                    <a class="social__item" href="http://"><img src="/img/header-slider/linkedin.svg" alt=""></a>
+                <div class="latest-projects__slider">
+                    <div class="slider__slide-1 active">
+                        <h2 class="slide__title">Dubai</h2>
+                    </div>
+                    <div class="slider__slide-info">
+                        <h2 class="slide__title">Dubai</h2>
+                        <p class="slide__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
+                            molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.</p>
+                        <a class="slide__link" href="#">See project
+                            <img class="link__img" src="images/arrow.png" alt="">
+                        </a>
+                    </div>
+                    <div class="slider__slide-2">
+                        <h2 class="slide__title">Houses</h2>
+                    </div>
+                    <div class="slider__slide-3">
+                        <h2 class="slide__title">Villas</h2>
+                    </div>
                 </div>
-            </div>
-        </section>
+                <div class="latest-projects__dots">
+                    <div class="dots__dot active"></div>
+                    <div class="dots__dot"></div>
+                    <div class="dots__dot"></div>
+                </div>
+            </section>
+            <!-- end -->
+
+            <section></section>
+
+            <section></section>
+
+            <section></section>
+
+            <section></section>
+
+            <section></section>
+
+            <section></section>
+
+            <section></section>
+
+            <section></section>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
     </div>
+    <script type="text/javascript" src="js/script.js"></script>
     <script src="js/header-slider.js"></script>
 </body>
 
