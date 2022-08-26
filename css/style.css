@@ -3,8 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,500italic,700,700italic&isplay=swap);
 @import url(https://fonts.googleapis.com/css?family=Lexend:300&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Space+Grotesk:700&display=swap);
-@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
-
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
 html,
 body {
   height: 100%;
@@ -12,7 +11,7 @@ body {
 
 body {
   line-height: 1;
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   color: #ffffff;
   background: #272727;
 }
@@ -23,30 +22,27 @@ body {
   margin: 0 auto;
 }
 
-[class*='__container'] {
+[class*=__container] {
   max-width: 1110px;
   margin: 0 auto;
 }
 
 @media (max-width: 1199.98px) {
-  [class*='__container'] {
+  [class*=__container] {
     max-width: 970px;
   }
 }
-
 @media (max-width: 990.98px) {
-  [class*='__container'] {
+  [class*=__container] {
     max-width: 750px;
   }
 }
-
 @media (max-width: 767.98px) {
-  [class*='__container'] {
+  [class*=__container] {
     max-width: none;
     padding: 0px 15px;
   }
 }
-
 /* ======================= */
 .header {
   width: 1802px;
@@ -85,7 +81,7 @@ body {
   height: 28px;
   left: 15px;
   top: 7px;
-  font-family: 'Gilroy-bold', sans-serif;
+  font-family: "Gilroy-bold", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -98,7 +94,7 @@ body {
   height: 9px;
   left: 15px;
   top: 39px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
@@ -112,7 +108,7 @@ body {
   height: 19px;
   left: 336px;
   top: 22px;
-  font-family: 'Gilroy-Bold', sans-serif;
+  font-family: "Gilroy-Bold", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -196,7 +192,7 @@ body {
   height: 17px;
   left: 15px;
   top: 9px;
-  font-family: 'Gilroy-bold';
+  font-family: "Gilroy-bold";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -210,7 +206,7 @@ body {
   height: 17px;
   left: 15px;
   top: 9px;
-  font-family: 'Gilroy-bold';
+  font-family: "Gilroy-bold";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -224,7 +220,7 @@ body {
   height: 17px;
   left: 15px;
   top: 9px;
-  font-family: 'Gilroy-bold';
+  font-family: "Gilroy-bold";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -268,7 +264,7 @@ body {
   height: 16px;
   left: 13px;
   top: 13px;
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -284,7 +280,7 @@ body {
   height: 17px;
   left: 1500px;
   top: 22px;
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -301,7 +297,7 @@ body {
   height: 17px;
   left: 1530px;
   top: 22px;
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -318,7 +314,7 @@ body {
   height: 14px;
   left: 1600px;
   top: 20px;
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -332,7 +328,7 @@ body {
   height: 812px;
 }
 
-.latest-projects>* {
+.latest-projects > * {
   display: flex;
   margin-bottom: 77px;
   justify-content: space-between;
@@ -340,14 +336,14 @@ body {
 }
 
 .header-in__title {
-  font-family: 'Gilroy-bold';
+  font-family: "Gilroy-bold";
   font-weight: 700;
   font-size: 48px;
   line-height: 69px;
 }
 
 .header-in__sort {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -363,7 +359,7 @@ body {
 
 .sort__link {
   margin-left: 45px;
-  font-family: 'Gilroy-bold';
+  font-family: "Gilroy-bold";
   font-style: italic;
   font-weight: 600;
   font-size: 16px;
@@ -371,7 +367,7 @@ body {
   color: #929292;
 }
 
-[class*='slider__slide'] {
+[class*=slider__slide] {
   width: 430px;
   height: 572px;
   display: flex;
@@ -398,14 +394,14 @@ body {
   background-color: #fcd54c;
 }
 
-.slider__slide-info>* {
+.slider__slide-info > * {
   margin: 46px;
   color: #272727;
 }
 
 .slide__title {
   margin: 46px;
-  font-family: 'Gilroy-bold';
+  font-family: "Gilroy-bold";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -413,7 +409,7 @@ body {
 }
 
 .slide__info {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -421,7 +417,7 @@ body {
 }
 
 .slide__link {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
