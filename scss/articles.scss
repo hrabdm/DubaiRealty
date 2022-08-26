@@ -1,0 +1,46 @@
+ .articles {
+     //  height: 1165px;
+
+
+     .articles__container {
+
+
+         .articles__quote {
+             padding: 70px 95px;
+             border: 1px solid #FCD54C;
+             margin-bottom: 65px;
+
+             p {
+                 font-family: 'Roboto';
+                 font-style: normal;
+                 font-weight: 400;
+                 font-size: 30px;
+                 line-height: 160%;
+             }
+         }
+
+         .articles__wrapper {
+             display: flex;
+             justify-content: space-between;
+             //  gap: 23px;
+
+             .articles__item {
+                 width: 48.9%;
+                 overflow: hidden;
+
+                 img {
+                     object-fit: cover;
+                 }
+
+                 p {
+                     margin-top: 70px;
+                     font-weight: 400;
+                     font-size: 18px;
+                     line-height: 160%;
+                     color: #E8E8E8;
+                     margin-bottom: 115px;
+                 }
+             }
+         }
+     }
+ }

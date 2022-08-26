@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/header-slider.css">
+    <link rel="stylesheet" href="/css/expertise_section.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>DubaiRealty</title>
 </head>
 
@@ -45,8 +48,191 @@
                 <p class="header__phone">+38 (067) 444-67-34</p>
             </div>
         </header>
+        <main>
+            <section class="header-slider">
+                <div class="slider">
+                    <div class="slider__img">
+                        <img src="/img/header-slider/1.png" alt="">
+                    </div>
+                    <div class="slider__button">
+                        <button id="prev">PREV</button>
+                        <img id="line" src="/img/header-slider/line.png" alt="">
+                        <button id="next">NEXT</button>
+                    </div>
+                    <div class="slider__select select">
+                        <div class="select__item active">
+                            <h2>01</h2>
+                            <p>Lorem Ipsum <br>
+                                Dolorem apset</p>
+                            <img src="/img/header-slider/1.png" alt="">
+                        </div>
+                        <div class="select__item">
+                            <h2>02</h2>
+                            <p>Lorem Ipsum <br>
+                                Dolorem apset</p>
+                            <img src="/img/header-slider/2.png" alt="">
+                        </div>
+                        <div class="select__item">
+                            <h2>03</h2>
+                            <p>Lorem Ipsum <br>
+                                Dolorem apset</p>
+                            <img src="/img/header-slider/3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slider__greeting greeting">
+                        <h3 class="greeting__pre">Lorem ipsum</h3>
+                        <h1 class="greeting__welcome">Welcome home <br><span class="accent">to</span> luxury</h1>
+                        <a class="greeting__link" href="#">Book a consultation <img src="/img/header-slider/Arrow.svg"
+                                alt=""></a>
+                    </div>
+                    <div class="slider__social social">
+                        <a class="social__item" href="http://"><img src="/img/header-slider/facebook.svg" alt=""></a>
+                        <a class="social__item" href="http://"><img src="/img/header-slider/twitter.svg" alt=""></a>
+                        <a class="social__item" href="http://"><img src="/img/header-slider/youtube.svg" alt=""></a>
+                        <a class="social__item" href="http://"><img src="/img/header-slider/instagram.svg" alt=""></a>
+                        <a class="social__item" href="http://"><img src="/img/header-slider/linkedin.svg" alt=""></a>
+                    </div>
+                </div>
+            </section>
+            <!-- Секция  -->
+            <section class="latest-projects">
+                <div class="latest-projects__header-in__container">
+                    <h2 class="header-in__title">Latest projects</h2>
+                    <div class="header-in__sort">
+                        <span class="sort__item active">All</span>
+                        <span class="sort__item">Building</span>
+                        <span class="sort__item">Interior</span>
+                        <a href="#" class="sort__link">View all projects</a>
+                    </div>
+                </div>
+                <div class="latest-projects__slider">
+                    <div class="slider__slide-1 active">
+                        <h2 class="slide__title">Dubai</h2>
+                    </div>
+                    <div class="slider__slide-info">
+                        <h2 class="slide__title">Dubai</h2>
+                        <p class="slide__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
+                            molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.</p>
+                        <a class="slide__link" href="#">See project
+                            <img class="link__img" src="images/arrow.png" alt="">
+                        </a>
+                    </div>
+                    <div class="slider__slide-2">
+                        <h2 class="slide__title">Houses</h2>
+                    </div>
+                    <div class="slider__slide-3">
+                        <h2 class="slide__title">Villas</h2>
+                    </div>
+                </div>
+                <div class="latest-projects__dots">
+                    <div class="dots__dot active"></div>
+                    <div class="dots__dot"></div>
+                    <div class="dots__dot"></div>
+                </div>
+            </section>
+            <!-- end -->
+
+            <section class="expertise">
+                <div class="expertise__article">
+                    <h4>Our expertise</h4>
+                    <h2>"The best apartment in Dubai" we will find your dream</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh massa, euismod ut
+                        libero id, blandit posuere
+                        augue. Morbi porta volutpat diam egestas ultrices. Phasellus tempus fringilla neque, nec viverra
+                        orci tristique vel. In
+                        efficitur vehicula magna, varius pellentesque nisl vehicula vel. Aenean vel sem ac elit commodo
+                        finibus in nec massa.
+                        Nulla facilisi. Nulla vestibulum venenatis sollicitudin. Etiam auctor mollis justo eu tincidunt.
+                        Aliquam varius varius
+                        tortor. Cras id venenatis sem. Quisque ut risus ex. Sed et tempor massa. Praesent ac eros
+                        hendrerit, congue justo ac,
+                        molestie urna. Fusce nec neque vitae dolor dapibus elementum. Maecenas nec orci quis sem
+                        condimentum dapibus varius a
+                        lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="expertise__video">
+                    <iframe id="expertise__video" width="100%" height="922px"
+                        src="https://www.youtube.com/embed/KDsTGUlWUek" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}
+                        html,body{height:100%}
+                        img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+                        span{height:1.5em;text-align:center;font:96px/1.5 sans-serif;color:yellow;text-shadow:0 0 1.5em black}
+                        </style>
+                        <a href=https://www.youtube.com/embed/KDsTGUlWUek?autoplay=1&mute=1&playlist=KDsTGUlWUek&loop=1&controls=0>
+                        <img src=/img/expertise_section/placeholder.png alt='Demo video'>
+                        <span>▶</span>
+                        </a>" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        title="Demo video">
+                    </iframe>
+                </div>
+            </section>
+
+            <section class="articles">
+                <div class="articles__container">
+                    <div class="articles__quote">
+                        <p> “Don’t limit yourself. Many people limit themselves to what they think they can do. You can
+                            go as far as your mind lets you. What you believe, remember, you can achieve.” <span
+                                class="accent">— Mary Kay Ash</span></p>
+                    </div>
+                    <div class="articles__wrapper">
+                        <div class="articles__item">
+                            <img src="img/articles/img_left.png" alt="">
+                            <p>Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit,
+                                rutrum sit amet commodo vel,
+                                porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus,
+                                sit amet pellentesque neque est id
+                                tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula
+                                purus nec tellus. Aenean a
+                                scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget.
+                                Nullam mattis justo consequat risus.
+                                Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed
+                                ante quis nulla tincidunt
+                                auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit.
+                                Pellentesque elementum purus non
+                                nisl pharetra consequat. Nunc in venenatis orci.</p>
+                        </div>
+                        <div class="articles__item">
+                            <img src="img/articles/img_right.png" alt="">
+                            <p>Vivamus non diam vel lorem efficitur mattis in gravida ante. Ut ullamcorper dapibus ante,
+                                eu tincidunt orci feugiat vel.
+                                Curabitur eget lectus lectus. Pellentesque malesuada, felis at accumsan interdum, nisl
+                                mi fermentum est, eu suscipit dui
+                                lorem a dui. Aliquam rhoncus risus in leo vestibulum efficitur. Suspendisse tortor quam,
+                                faucibus a lacinia a, bibendum
+                                vitae quam. Suspen disse et metus et orci rutrum dictum eu eu nibh. Suspendisse blandit
+                                in diam in rhoncus. Nam volutpat
+                                hendrerit enim, sed aliquet quam gravida at. Nullam dictum sagittis nisi, eu porta sem
+                                mollis eu. Nulla faucibus sed
+                                ipsum sed sodales. Curabitur varius iaculis felis, in aliquet sem suscipit quis. Ut
+                                vulputate, magna ac bibendum
+                                elementum, nulla magna tincidunt urna, a venenatis dolor arcu sed leo.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section></section>
+
+            <section></section>
+
+            <section></section>
+
+            <section></section>
+
+            <section></section>
+
+            <section></section>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
     </div>
-    <script src="js/headerNav.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/header-slider.js"></script>
 </body>
 
 </html>
