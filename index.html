@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/header-slider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>DubaiRealty</title>
 </head>
 
@@ -28,8 +30,53 @@
                 </ul>
             </div>
         </div>
+        <section class="header-slider">
+            <div class="slider">
+                <div class="slider__img">
+                    <img src="/img/header-slider/1.png" alt="">
+                </div>
+                <div class="slider__button">
+                    <button id="prev">PREV</button>
+                    <img id="line" src="/img/header-slider/line.png" alt="">
+                    <button id="next">NEXT</button>
+                </div>
+                <div class="slider__select select">
+                    <div class="select__item active">
+                        <h2>01</h2>
+                        <p>Lorem Ipsum <br>
+                            Dolorem apset</p>
+                        <img src="/img/header-slider/1.png" alt="">
+                    </div>
+                    <div class="select__item">
+                        <h2>02</h2>
+                        <p>Lorem Ipsum <br>
+                            Dolorem apset</p>
+                        <img src="/img/header-slider/2.png" alt="">
+                    </div>
+                    <div class="select__item">
+                        <h2>03</h2>
+                        <p>Lorem Ipsum <br>
+                            Dolorem apset</p>
+                        <img src="/img/header-slider/3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="slider__greeting greeting">
+                    <h3 class="greeting__pre">Lorem ipsum</h3>
+                    <h1 class="greeting__welcome">Welcome home <br><span class="accent">to</span> luxury</h1>
+                    <a class="greeting__link" href="#">Book a consultation <img src="/img/header-slider/Arrow.svg"
+                            alt=""></a>
+                </div>
+                <div class="slider__social social">
+                    <a class="social__item" href="http://"><img src="/img/header-slider/facebook.svg" alt=""></a>
+                    <a class="social__item" href="http://"><img src="/img/header-slider/twitter.svg" alt=""></a>
+                    <a class="social__item" href="http://"><img src="/img/header-slider/youtube.svg" alt=""></a>
+                    <a class="social__item" href="http://"><img src="/img/header-slider/instagram.svg" alt=""></a>
+                    <a class="social__item" href="http://"><img src="/img/header-slider/linkedin.svg" alt=""></a>
+                </div>
+            </div>
+        </section>
     </div>
-
+    <script src="js/header-slider.js"></script>
 </body>
 
 </html>
