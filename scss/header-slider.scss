@@ -1,14 +1,17 @@
 .header-slider {
   margin-bottom: 120px;
+
   .slider {
     display: grid;
     height: 970px;
     grid-template-columns: repeat(90, 1fr);
     grid-template-rows: repeat(97, 1fr);
+
     &__img {
       overflow: hidden;
       grid-column: 1 / -1;
       grid-row: 1 / -1;
+
       img {
         object-fit: cover;
       }
@@ -27,6 +30,7 @@
       #line {
         height: 30%;
       }
+
       #next,
       #prev {
         font-weight: 700;
@@ -36,6 +40,7 @@
         color: #ffffff;
         background-color: unset;
       }
+
       #next:hover,
       #prev:hover {
         color: #fcd54c;
@@ -43,23 +48,26 @@
       }
     }
 
-    &__select {
-    }
+    &__select {}
+
     .select {
       z-index: 100;
       grid-column: 37 / 91;
       grid-row: -16 / -1;
       display: flex;
+
       &__item:hover {
         cursor: pointer;
         border-right: solid 1px #fcd54c;
         border-bottom: solid 1px #fcd54c;
       }
+
       &__item.active {
         h2 {
           color: #fcd54c;
         }
       }
+
       &__item {
         background: #272727;
         width: 100%;
@@ -70,10 +78,12 @@
         border-right: solid 1px #fff;
         border-bottom: solid 1px #fff;
         border-radius: 5px;
+
         img {
           display: none;
         }
       }
+
       h2 {
         font-family: 'Roboto';
         font-style: normal;
@@ -82,6 +92,7 @@
         line-height: 24px;
         display: inline-block;
       }
+
       p {
         font-family: 'Work Sans';
         font-style: normal;
@@ -91,6 +102,7 @@
         display: inline-block;
       }
     }
+
     &__greeting {
       position: relative;
       display: flex;
@@ -100,6 +112,7 @@
       grid-column: 18 / 66;
       grid-row: 28 / 66;
     }
+
     &__greeting::before,
     &__greeting::after {
       content: '';
@@ -111,17 +124,18 @@
       border-bottom: solid 5px #fcd54c;
       border-left: solid 5px #fcd54c;
     }
+
     &__greeting::before {
       top: 0;
     }
+
     &__greeting::after {
       bottom: 0;
     }
   }
+
   .greeting {
-    .accent {
-      color: #fcd54c;
-    }
+
     &__pre {
       margin-left: 28px;
       font-weight: 400;
@@ -149,6 +163,7 @@
       color: #ffffff;
     }
   }
+
   .social {
     z-index: 100;
     grid-column: -3 / -2;
@@ -157,4 +172,8 @@
     flex-direction: column;
     justify-content: space-between;
   }
+}
+
+.accent {
+  color: #fcd54c;
 }

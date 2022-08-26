@@ -112,9 +112,6 @@
 .header-slider .slider__greeting::after {
   bottom: 0;
 }
-.header-slider .greeting .accent {
-  color: #fcd54c;
-}
 .header-slider .greeting__pre {
   margin-left: 28px;
   font-weight: 400;
@@ -146,4 +143,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.accent {
+  color: #fcd54c;
 }
