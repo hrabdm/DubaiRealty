@@ -47,42 +47,35 @@ body {
 }
 /* ======================= */
 .header {
-  width: 1800px;
-  height: 103px;
+  height: 6em;
 }
 
 .header__nav {
-  position: absolute;
-  width: 1802px;
-  height: 63px;
-  margin: 20px 58px;
+  display: grid;
+  grid-template-columns: 0.8fr 1.8fr 0.8fr 1.5fr;
+  margin: 0 0.5em;
+  height: 6em;
 }
 
 .header__logo {
-  position: absolute;
-  width: 184px;
-  height: 63px;
-  left: 0px;
-  top: 0px;
+  width: 11em;
+  height: 6em;
+  padding: 20px 0;
 }
 
 .logo__rect {
   box-sizing: border-box;
-  position: absolute;
   width: 40px;
-  height: 63px;
-  left: 0px;
-  top: 0px;
+  height: 3.5em;
   border: 2px solid #fcd54c;
   border-right-style: none;
 }
 
 .logo__text1 {
-  position: absolute;
   width: 169px;
-  height: 28px;
-  left: 15px;
-  top: 7px;
+  height: 32px;
+  padding-top: 1px;
+  padding-left: 5px;
   font-family: "Gilroy-bold", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -91,25 +84,18 @@ body {
 }
 
 .logo__text2 {
-  position: absolute;
   width: 113px;
-  height: 9px;
-  left: 15px;
-  top: 39px;
+  height: 12px;
+  padding-left: 5px;
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 13px;
-  opacity: 0.6;
 }
 
 .header__menu {
-  position: absolute;
-  width: 553px;
-  height: 19px;
-  left: 336px;
-  top: 22px;
+  height: 6em;
   font-family: "Gilroy-Bold", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -118,16 +104,25 @@ body {
   text-transform: uppercase;
   display: flex;
   justify-content: left;
-  padding: 0;
-  margin: 0;
+  padding: 2.5em 3em;
+}
+
+.link {
+  display: grid;
+  grid-template-columns: 1fr 0.2fr;
+  grid-template-rows: 0.5fr 3fr;
+  margin-right: 60px;
 }
 
 .menu__item {
-  position: relative;
   list-style-type: none;
   cursor: pointer;
   margin-right: 60px;
   padding: 0;
+}
+
+.link__item {
+  margin-right: 0;
 }
 
 .menu__item:hover {
@@ -136,7 +131,6 @@ body {
 
 .link__submenu {
   box-sizing: border-box;
-  position: absolute;
   width: 247px;
   height: 110px;
   left: 0;
@@ -154,7 +148,6 @@ body {
 }
 
 .submenu {
-  position: absolute;
   width: 245px;
   height: 36px;
   left: 0;
@@ -194,11 +187,8 @@ body {
 }
 
 .item__1 p {
-  position: absolute;
   width: 160px;
   height: 17px;
-  left: 15px;
-  top: 9px;
   font-family: "Gilroy-bold";
   font-style: normal;
   font-weight: 500;
@@ -208,11 +198,8 @@ body {
 }
 
 .item__2 p {
-  position: absolute;
   width: 154px;
   height: 17px;
-  left: 15px;
-  top: 9px;
   font-family: "Gilroy-bold";
   font-style: normal;
   font-weight: 500;
@@ -222,11 +209,8 @@ body {
 }
 
 .item__3 p {
-  position: absolute;
   width: 200px;
   height: 17px;
-  left: 15px;
-  top: 9px;
   font-family: "Gilroy-bold";
   font-style: normal;
   font-weight: 500;
@@ -236,57 +220,42 @@ body {
 }
 
 .link__line {
-  position: absolute;
   width: 40px;
   height: 2px;
-  left: 0;
-  top: 16px;
   background: #ffffff;
   cursor: pointer;
 }
 
 .link__triangle {
-  position: absolute;
+  margin-left: -8px;
   width: 6.83px;
   height: 6.83px;
-  left: 31.83px;
-  top: 3px;
   background: linear-gradient(to top left, #ffffff 50%, #272727 50%);
   transform: rotate(45deg);
 }
 
 .header__btn {
-  position: absolute;
-  cursor: pointer;
-  width: 165px;
-  height: 41px;
-  left: 1200px;
-  top: 11px;
-  background: #fcd54c;
+  width: 100%;
+  height: 6em;
 }
 
-.header__btn p {
-  position: absolute;
-  width: 137px;
-  height: 16px;
-  left: 13px;
-  top: 13px;
+.header__btn button {
+  width: 100%;
+  height: 2.5em;
+  margin: 2.2em auto;
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
-  display: flex;
-  align-items: flex-end;
+  background: #fcd54c;
   color: #000000;
+  cursor: pointer;
 }
 
 .en {
-  position: absolute;
   width: 17px;
   height: 17px;
-  left: 1500px;
-  top: 22px;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
@@ -296,14 +265,14 @@ body {
   text-transform: uppercase;
   color: #fcd54c;
   cursor: pointer;
+  display: inline-block;
+  margin-left: 3em;
+  margin-top: 2.5em;
 }
 
 .ua {
-  position: absolute;
   width: 18px;
   height: 17px;
-  left: 1530px;
-  top: 22px;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
@@ -313,20 +282,23 @@ body {
   text-transform: uppercase;
   color: #929292;
   cursor: pointer;
+  display: inline-block;
+  margin-left: 0.2em;
+  margin-top: 2.5em;
 }
 
 .header__phone {
-  position: absolute;
   width: 150px;
-  height: 14px;
-  left: 1600px;
-  top: 20px;
+  height: 17px;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   color: #ffffff;
+  display: inline-block;
+  margin-top: 2.5em;
+  margin-left: 3%;
 }
 
 /* section latest-projects */
