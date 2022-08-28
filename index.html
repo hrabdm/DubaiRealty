@@ -19,18 +19,31 @@
                         <p class="logo__text2">Real Estate</p>
                     </div>
                 </div>
+                <div class="link">
+                    <div class="menu__item link__item header__menu">BUY</div>
+                    <div class="link__triangle"></div>
+                    <div class="link__line"></div>
+                    <nav class="submenu closed">
+                        <ul class="link__submenu">
+                            <li class="item__1">
+                                <a href="">Category number one</a>
+                            </li>
+                            <li class="item__2">
+                                <a href="">Apartments in Dubai</a>
+                            </li>
+                            <li class="item__3">
+                                <a href="">Category number twenty five</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
                 <div class="header__menu">
-                    <div class="link">
-                        <div class="menu__item link__item">BUY</div>
-                        <div class="link__triangle"></div>
-                        <div class="link__line"></div>
-                    </div>
                     <div class="menu__item">BLOG</div>
                     <div class="menu__item">ABOUT</div>
                     <div class="menu__item">CONTACT</div>
                 </div>
                 <div class="header__btn">
-                    <button>Book a consultation</button>
+                    <button onclick="swa()" type="button">Book a consultation</button>
                 </div>
                 <div class="lang__phone">
                     <p class="en">EN</p>
@@ -38,19 +51,20 @@
                     <p class="header__phone">+38 (067) 444-67-34</p>
                 </div>
             </div>
-            <nav class="submenu closed">
-                <ul class="link__submenu">
-                    <li class="submenu item__1">
-                        <a href="">Category number one</a>
-                    </li>
-                    <li class="submenu item__2">
-                        <a href="">Apartments in Dubai</a>
-                    </li>
-                    <li class="submenu item__3">
-                        <a href="">Category number twenty five</a>
-                    </li>
-                </ul>
-            </nav>
+            <div id="overlay">
+                <div class="popup">
+                    <button class="close" title="Закрыть окно" onclick="swa2()"></button>
+                    <p class="zag_1">Leave your contacts</p>
+                    <p class="zag_2">we will contact you within three hours</p>
+                    <form>
+                        <p class="zag_3">Name</p>
+                        <input type="text" name="firstname" class="input__info">
+                        <p class="zag_3">Phone</p>
+                        <input type="text" name="firstname" class="input__info"><br/>
+                        <input type="submit" value="Send" class="submitOverlay">
+                    </form>
+                </div>
+            </div>
         </header>
         <main>
             <section class="header-slider">
@@ -260,6 +274,7 @@
         <footer class="footer"></footer>
 
     </div>
+    <script src="js/headerNav.js"></script>
     <script src="js/header-slider.js"></script>
     <script src="js/latest-projects.js"></script>
     

@@ -51,13 +51,120 @@ body {
   }
 }
 /* ======================= */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  overflow: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.7s ease-in 0s;
+}
+
+.popup {
+  top: 20%;
+  left: 0;
+  right: 0;
+  font-size: 40px;
+  margin: auto;
+  width: 80%;
+  min-width: 200px;
+  max-width: 730px;
+  position: absolute;
+  padding: 15px 20px;
+  background-color: #fefefe;
+  z-index: 1000;
+  font: 14px/18px "Gilroy-bold", Arial, sans-serif;
+  box-shadow: 0 0px 14px rgba(0, 0, 0, 0.4);
+}
+
+.close {
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  outline: none;
+}
+
+.close:before {
+  color: #FCD54C;
+  content: "X";
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+}
+
+#overlay .popup p.zag_1 {
+  text-align: center;
+  margin: 40px auto;
+  color: rgb(7, 7, 7);
+  font-size: 44px;
+  font-weight: bold;
+}
+
+#overlay .popup p.zag_2 {
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(7, 7, 7);
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#overlay .popup p.zag_3 {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 120px;
+  color: rgb(7, 7, 7);
+  font-family: "Gilroy-bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.input__info {
+  margin-left: 9em;
+  border-bottom: 1px solid #929292;
+  width: 35em;
+  height: 30px;
+}
+
+.submitOverlay {
+  margin: 50px auto;
+  width: 216px;
+  height: 44px;
+  background: #FCD54C;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* ======================= */
 .header {
   height: 6em;
 }
 
 .header__nav {
   display: grid;
-  grid-template-columns: 0.5fr 1fr 0.5fr 0.6fr;
+  grid-template-columns: 0.8fr 0.2fr 1fr 0.5fr 0.6fr;
   margin: 0 0.5em;
   height: 6em;
 }
@@ -108,7 +215,7 @@ body {
   line-height: 17px;
   text-transform: uppercase;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 0.5fr 0.5fr 1fr;
 }
 
 .link {
@@ -116,6 +223,7 @@ body {
   grid-template-columns: 0.4fr 0.2fr;
   grid-template-rows: 0.1fr 0.5fr;
   height: 2.8;
+  position: relative;
 }
 
 .menu__item {
@@ -123,6 +231,10 @@ body {
   cursor: pointer;
   padding-top: 2.5em;
   height: 3.6em;
+}
+
+.item {
+  position: absolute;
 }
 
 .link__item {
@@ -134,7 +246,6 @@ body {
 }
 
 .link__submenu {
-  position: relative;
   box-sizing: border-box;
   width: 247px;
   height: 110px;
@@ -143,7 +254,15 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
   background: #272727;
   border: 1px solid #979797;
-  transition: 2s;
+}
+
+.link__submenu li {
+  list-style: none;
+}
+
+.link__submenu a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .closed {
@@ -152,38 +271,50 @@ body {
 
 .submenu {
   width: 245px;
+  position: absolute;
+  left: 0;
+  top: 60%;
 }
 
 .item__1 {
-  top: 0;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
   background: #272727;
   cursor: pointer;
 }
 
 .item__1:hover {
   background: #fcd54c;
+}
+.item__1:hover a {
   color: #272727;
 }
 
 .item__2 {
-  top: 36px;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
   background: #272727;
   cursor: pointer;
 }
 
 .item__2:hover {
   background: #fcd54c;
+}
+.item__2:hover a {
   color: #272727;
 }
 
 .item__3 {
-  top: 72px;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
   background: #272727;
   cursor: pointer;
 }
 
 .item__3:hover {
   background: #fcd54c;
+}
+.item__3:hover a {
   color: #272727;
 }
 
@@ -228,7 +359,7 @@ body {
 }
 
 .link__triangle {
-  margin-top: 35px;
+  margin-top: 36px;
   margin-left: -10px;
   width: 8px;
   height: 8px;
@@ -277,6 +408,7 @@ body {
   cursor: pointer;
   display: inline-block;
   margin-top: 2.5em;
+  margin-left: 0.5em;
 }
 
 .ua {
@@ -292,7 +424,7 @@ body {
   color: #929292;
   cursor: pointer;
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 0.5em;
   margin-top: 2.5em;
 }
 
