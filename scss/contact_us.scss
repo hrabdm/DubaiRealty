@@ -1,0 +1,49 @@
+.contact-us {
+    background: url(/img/contact_us/contact_us_bg.png) 50% / 100% 100% no-repeat;
+    width: 100%;
+    height: 400px;
+    padding-top: 87px;
+    display: inline-block;
+    margin-bottom: 140px;
+
+    h3 {
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        color: #272727;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-family: "gilroy-bold";
+        font-weight: 700;
+        font-size: 120px;
+        text-align: center;
+        color: #272727;
+        margin-bottom: 50px;
+    }
+
+    .contact-us__form {
+        width: fit-content;
+        display: flex;
+        margin: 0 auto;
+
+        input[type=email] {
+            width: 305px;
+            height: 60px;
+            font-weight: 400;
+            font-size: 12px;
+            text-indent: 40px;
+            color: #272727;
+        }
+
+        input[type=button] {
+            width: 165px;
+            height: 60px;
+            background: #272727;
+            font-weight: 600;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+    }
+}

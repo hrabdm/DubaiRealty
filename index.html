@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="/css/header-slider.css">
-    <link rel="stylesheet" href="/css/expertise_section.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>DubaiRealty</title>
 </head>
@@ -110,7 +108,7 @@
                     </div>
                 </div>
                 <div class="latest-projects__slider">
-                    <div class="slider__slide-1 active">
+                    <div class="slider__slide-1 slide active">
                         <h2 class="slide__title">Dubai</h2>
                     </div>
                     <div class="slider__slide-info">
@@ -121,10 +119,10 @@
                             <img class="link__img" src="images/arrow.png" alt="">
                         </a>
                     </div>
-                    <div class="slider__slide-2">
+                    <div class="slider__slide-2 slide">
                         <h2 class="slide__title">Houses</h2>
                     </div>
-                    <div class="slider__slide-3">
+                    <div class="slider__slide-3 slide">
                         <h2 class="slide__title">Villas</h2>
                     </div>
                 </div>
@@ -155,17 +153,16 @@
                         lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div class="expertise__video">
-                    <iframe id="expertise__video" width="100%" height="922px"
+                    <iframe class="ifreme__video" width="100%" height="922px"
                         src="https://www.youtube.com/embed/KDsTGUlWUek" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}
                         html,body{height:100%}
                         img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
                         span{height:1.5em;text-align:center;font:96px/1.5 sans-serif;color:yellow;text-shadow:0 0 1.5em black}
                         </style>
-                        <a href=https://www.youtube.com/embed/KDsTGUlWUek?autoplay=1&mute=1&playlist=KDsTGUlWUek&loop=1&controls=0>
+                        <a href=https://www.youtube.com/embed/KDsTGUlWUek?autoplay=1&mute=1&playlist=KDsTGUlWUek,viLs6Ljxke4,NRZ5wkYKnvU&loop=1&controls=0>
                         <img src=/img/expertise_section/placeholder.png alt='Demo video'>
-                        <span>▶</span>
-                        </a>" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        <span>▶</span></a>" frameborder="0"
+                        allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen seamless
                         title="Demo video">
                     </iframe>
                 </div>
@@ -216,27 +213,54 @@
 
             </section>
 
-            <section></section>
+            <section class="contact-us">
+                <h3>Do you have any questions?</h3>
+                <h2>Contact us</h2>
+                <div class="contact-us__form">
+                    <input type="email" name="" placeholder="Enter your mail" id="email">
+                    <input type="button" value="Send">
 
-            <section></section>
+                </div>
+            </section>
 
-            <section></section>
+            <section class="useful-articles">
+                <div class="useful-articles__container">
+                    <div class="useful-articles__header">
+                        <h2>Useful articles</h2>
+                        <a href="#">View all articles<img src="/img/useful_articles/arrow.svg" alt=""></a>
+                    </div>
+                    <div class="useful-articles__wrapper">
+                        <div class="useful-articles__item">
+                            <img src="/img/useful_articles/ua1_bg.png" alt="">
+                            <h3>Discover Architecture</h3>
+                        </div>
+                        <div class="useful-articles__item_center">
+                            <time datetime="2022-07-03">Jule 03, 2022</time>
+                            <h3>Discover Architecture</h3>
+                            <p>Projects for many large domestic and foreign corporations, enterprises in many elds such
+                            </p>
+                            <a href="#">Learn more <img src="/img/useful_articles/arrow.svg" alt=""></a>
+                        </div>
+                        <div class="useful-articles__item">
+                            <img src="/img/useful_articles/ua2_bg.png" alt="">
+                            <h3>Discover Architecture</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            <section></section>
+            <section class="testimonials"></section>
 
-            <section></section>
-
-            <section></section>
+            <section class="faq"></section>
 
         </main>
 
-        <footer>
-
-        </footer>
+        <footer class="footer"></footer>
 
     </div>
-    <script type="text/javascript" src="js/script.js"></script>
     <script src="js/header-slider.js"></script>
+    <script src="js/latest-projects.js"></script>
+    
 </body>
 
 </html>

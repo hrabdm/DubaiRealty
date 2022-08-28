@@ -1,5 +1,10 @@
 @import url(reset.css);
+@import url(expertise_section.css);
+@import url(header-slider.css);
 @import url(articles.css);
+@import url(contact_us.css);
+@import url(useful_articles.css);
+@import url(latest-projects.css);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,regular,500,600,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,500italic,700,700italic&isplay=swap);
 @import url(https://fonts.googleapis.com/css?family=Lexend:300&display=swap);
@@ -358,9 +363,6 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
-  display: inline-block;
-  margin-top: 2.5em;
-  margin-left: 3%;
 }
 
 /* section latest-projects */
