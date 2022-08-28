@@ -1,0 +1,32 @@
+.articles .articles__container .articles__quote {
+  padding: 70px 95px;
+  border: 1px solid #FCD54C;
+  margin-bottom: 65px;
+}
+.articles .articles__container .articles__quote p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 160%;
+}
+.articles .articles__container .articles__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.articles .articles__container .articles__wrapper .articles__item {
+  width: 48.9%;
+  overflow: hidden;
+}
+.articles .articles__container .articles__wrapper .articles__item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.articles .articles__container .articles__wrapper .articles__item p {
+  margin-top: 70px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #E8E8E8;
+  margin-bottom: 115px;
+}

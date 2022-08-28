@@ -1,7 +1,12 @@
 @import url(reset.css);
+@import url(expertise_section.css);
+@import url(header-slider.css);
+@import url(articles.css);
+@import url(contact_us.css);
+@import url(useful_articles.css);
 @import url(latest-projects.css);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,regular,500,600,700&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,500italic,700,700italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,500italic,700,700italic&isplay=swap);
 @import url(https://fonts.googleapis.com/css?family=Lexend:300&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Space+Grotesk:700&display=swap);
 @import url("http://fonts.cdnfonts.com/css/gilroy-bold");
@@ -13,7 +18,8 @@ body {
 body {
   line-height: 1;
   font-family: "Work Sans";
-  color: #FFFFFF;
+  font-style: normal;
+  color: #ffffff;
   background: #272727;
 }
 
@@ -72,7 +78,7 @@ body {
   height: 63px;
   left: 0px;
   top: 0px;
-  border: 2px solid #FCD54C;
+  border: 2px solid #fcd54c;
   border-right-style: none;
 }
 
@@ -130,7 +136,7 @@ body {
 }
 
 .menu__item:hover {
-  color: #FCD54C;
+  color: #fcd54c;
 }
 
 .link__submenu {
@@ -161,7 +167,7 @@ body {
 }
 
 .item__1:hover {
-  background: #FCD54C;
+  background: #fcd54c;
   color: #272727;
 }
 
@@ -172,7 +178,7 @@ body {
 }
 
 .item__2:hover {
-  background: #FCD54C;
+  background: #fcd54c;
   color: #272727;
 }
 
@@ -183,7 +189,7 @@ body {
 }
 
 .item__3:hover {
-  background: #FCD54C;
+  background: #fcd54c;
   color: #272727;
 }
 
@@ -235,7 +241,7 @@ body {
   height: 2px;
   left: 0;
   top: 16px;
-  background: #FFFFFF;
+  background: #ffffff;
   cursor: pointer;
 }
 
@@ -245,7 +251,7 @@ body {
   height: 6.83px;
   left: 31.83px;
   top: 3px;
-  background: linear-gradient(to top left, #FFFFFF 50%, #272727 50%);
+  background: linear-gradient(to top left, #ffffff 50%, #272727 50%);
   transform: rotate(45deg);
 }
 
@@ -256,7 +262,7 @@ body {
   height: 41px;
   left: 1200px;
   top: 11px;
-  background: #FCD54C;
+  background: #fcd54c;
 }
 
 .header__btn p {
@@ -288,7 +294,7 @@ body {
   line-height: 17px;
   text-align: right;
   text-transform: uppercase;
-  color: #FCD54C;
+  color: #fcd54c;
   cursor: pointer;
 }
 
@@ -320,5 +326,5 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }

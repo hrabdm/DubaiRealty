@@ -1,0 +1,32 @@
+.expertise {
+  margin-top: 70px;
+  display: inline-block;
+  margin-bottom: 120px;
+}
+.expertise .expertise__article {
+  width: 40.55%;
+  margin-bottom: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.expertise .expertise__article h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #FCD54C;
+  margin-bottom: 40px;
+}
+.expertise .expertise__article h2 {
+  font-family: "gilroy-bold";
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 69px;
+  color: #E8E8E8;
+  margin-bottom: 33px;
+}
+.expertise .expertise__article p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #E8E8E8;
+}
