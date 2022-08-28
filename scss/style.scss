@@ -5,6 +5,7 @@
 @import url(contact_us.css);
 @import url(useful_articles.css);
 @import url(latest-projects.css);
+@import url(faq.css);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,regular,500,600,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,500italic,700,700italic&isplay=swap);
 @import url(https://fonts.googleapis.com/css?family=Lexend:300&display=swap);
@@ -173,9 +174,9 @@ body {
 }
 
 .header__logo {
-  width:11em;
+  width: 11em;
   height: 6em;
-  padding: 20px 0;;
+  padding: 20px 0;
 }
 
 .logo__rect {

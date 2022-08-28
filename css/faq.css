@@ -1,0 +1,38 @@
+.faq {
+  margin-bottom: 120px;
+  height: 700px;
+}
+.faq h2 {
+  font-family: "gilroy-bold";
+  font-weight: 700;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.faq .faq__accordion {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-bottom: solid 1px #929292;
+}
+.faq .faq__accordion h4 {
+  border-top: solid 1px #929292;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  background: url(/img/faq/arrow.svg) no-repeat right -26px;
+  padding: 20px 0;
+}
+.faq .faq__accordion h4.active {
+  background-position: right 25px;
+}
+.faq .faq__accordion h4:hover {
+  cursor: pointer;
+}
+.faq .faq__accordion p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #E8E8E8;
+  margin: 13px 65px 40px;
+}
