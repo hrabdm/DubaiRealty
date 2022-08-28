@@ -1,4 +1,4 @@
-const link = document.querySelector(".link");
+const link = document.querySelector(".link__item");
 
 link.addEventListener("click", () => {
   const linkSubMenu = document.querySelector(".link__submenu");
