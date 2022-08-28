@@ -5,6 +5,7 @@
 @import url(contact_us.css);
 @import url(useful_articles.css);
 @import url(latest-projects.css);
+@import url(faq.css);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,regular,500,600,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,500italic,700,700italic&isplay=swap);
 @import url(https://fonts.googleapis.com/css?family=Lexend:300&display=swap);
@@ -71,9 +72,10 @@ body {
 
 .header__logo {
   // position: relative;
-  width:11em;
+  width: 11em;
   height: 6em;
-  padding: 20px 0;;
+  padding: 20px 0;
+  ;
   // left: 0px;
   // top: 0px;
 }
@@ -171,8 +173,8 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
   background: #272727;
   border: 1px solid #979797;
-    transition: 2s;
-  }
+  transition: 2s;
+}
 
 .closed {
   opacity: 0;
@@ -307,9 +309,7 @@ body {
   cursor: pointer;
 }
 
-.length__phone {
-  
-}
+.length__phone {}
 
 .en {
   // position: absolute;
