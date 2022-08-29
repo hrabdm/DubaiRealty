@@ -60,6 +60,7 @@
   }
   .slide {
     transition: 1s;
+    cursor: pointer;
   }
   .slide.active {
     width: 438px;

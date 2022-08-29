@@ -3,7 +3,7 @@
  let slider = document.querySelector('.latest-projects__slider');
  let slides = document.querySelectorAll('.slide');
  let slideInf = document.querySelector('.slider__slide-info');
- let dots = document.querySelectorAll('.dots__dot');
+ let dots = document.querySelectorAll('.latest-projects .dots__dot');
  let index = 0;
  
  slides.forEach((elem, indexElem) => {

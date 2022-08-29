@@ -67,6 +67,7 @@
 
 .slide {
   transition: 1s;
+  cursor: pointer;
 }
 
 .slide.active {

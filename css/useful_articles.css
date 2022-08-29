@@ -1,7 +1,7 @@
 .useful-articles {
   width: 100%;
   display: inline-block;
-  margin-bottom: 170px;
+  margin-bottom: 150px;
 }
 .useful-articles .useful-articles__header {
   display: flex;
@@ -29,8 +29,6 @@
 .useful-articles .useful-articles__wrapper {
   display: flex;
   justify-content: space-between;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
 }
 .useful-articles .useful-articles__wrapper .useful-articles__item::after {
