@@ -1,6 +1,8 @@
 .faq {
   margin-bottom: 120px;
-  height: 700px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .faq h2 {
   font-family: "gilroy-bold";

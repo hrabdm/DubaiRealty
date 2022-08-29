@@ -55,6 +55,7 @@ body {
 }
 
 @media (max-width: 767.98px) {
+
   [class*='__container'] {
     // max-width: none;
   }
@@ -596,7 +597,7 @@ body {
   grid-template-columns: 1.2fr 2fr 1fr 1fr 1.2fr;
   margin-bottom: 2em;
 
-  .footer__buy a{
+  .footer__buy a {
     padding-top: 10px;
   }
 
@@ -615,7 +616,7 @@ body {
   p {
     font-family: 'Work Sans';
     font-style: normal;
-    font-weight:300;
+    font-weight: 300;
     font-size: 16px;
     line-height: 21px;
     color: #E8E8E8;
@@ -668,17 +669,17 @@ body {
     line-height: 160%;
     color: #E8E8E8;
     margin-left: 1em;
-    }
+  }
 
-    .slider__social {
-      margin-top: 0.5em;
-      margin-right: 1em;
-      text-align: end;
+  .slider__social {
+    margin-top: 0.5em;
+    margin-right: 1em;
+    text-align: end;
 
-      .social__item {
-        margin: 0.8em;
-      }
+    .social__item {
+      margin: 0.8em;
     }
+  }
 }
 
 /* end */
