@@ -46,12 +46,15 @@ body {
   [class*='__container'] {
     // max-width: 970px;
   }
+
 }
 
 @media (max-width: 900px) {
   [class*='__container'] {
     // max-width: 750px;
   }
+
+
 }
 
 @media (max-width: 767.98px) {
@@ -60,6 +63,8 @@ body {
     // max-width: none;
   }
 }
+
+@media (max-width: 520px) {}
 
 /* ======================= */
 
