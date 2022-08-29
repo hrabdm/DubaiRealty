@@ -36,22 +36,27 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 1199.98px) {
-  [class*='__container'] {
-    max-width: 970px;
+@media (max-width: 1800px) {
+  .container {
+    padding: 0 15px;
   }
 }
 
-@media (max-width: 990.98px) {
+@media (max-width: 1110px) {
   [class*='__container'] {
-    max-width: 750px;
+    // max-width: 970px;
+  }
+}
+
+@media (max-width: 900px) {
+  [class*='__container'] {
+    // max-width: 750px;
   }
 }
 
 @media (max-width: 767.98px) {
   [class*='__container'] {
-    max-width: none;
-    padding: 0px 15px;
+    // max-width: none;
   }
 }
 
@@ -70,10 +75,11 @@ body {
   opacity: 0;
   transition: opacity 0.7s ease-in 0s;
 }
+
 .popup {
   top: 20%;
   left: 0;
-  right: 0;       
+  right: 0;
   font-size: 40px;
   margin: auto;
   width: 80%;
@@ -86,6 +92,7 @@ body {
   font: 14px/18px 'Gilroy-bold', Arial, sans-serif;
   box-shadow: 0 0px 14px rgba(0, 0, 0, 0.4);
 }
+
 .close {
   top: 10px;
   right: 10px;
@@ -97,39 +104,41 @@ body {
   cursor: pointer;
   outline: none;
 }
+
 .close:before {
-  color: #FCD54C;;
+  color: #FCD54C;
+  ;
   content: "X";
-  font-family:  Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: normal;
   text-decoration: none;
   text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
 }
 
-#overlay .popup p.zag_1 { 
+#overlay .popup p.zag_1 {
   text-align: center;
   margin: 40px auto;
-  color:rgb(7, 7, 7);
+  color: rgb(7, 7, 7);
   font-size: 44px;
   font-weight: bold;
 }
 
-#overlay .popup p.zag_2 { 
+#overlay .popup p.zag_2 {
   text-align: center;
   margin: 0 auto;
-  color:rgb(7, 7, 7);
+  color: rgb(7, 7, 7);
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
 }
 
-#overlay .popup p.zag_3 { 
+#overlay .popup p.zag_3 {
   text-align: left;
   margin-top: 50px;
   margin-left: 120px;
-  color:rgb(7, 7, 7);
+  color: rgb(7, 7, 7);
   font-family: 'Gilroy-bold';
   font-style: normal;
   font-weight: 400;
@@ -289,6 +298,7 @@ body {
 
 .item__1:hover {
   background: #fcd54c;
+
   a {
     color: #272727;
   }
@@ -303,6 +313,7 @@ body {
 
 .item__2:hover {
   background: #fcd54c;
+
   a {
     color: #272727;
   }
@@ -317,6 +328,7 @@ body {
 
 .item__3:hover {
   background: #fcd54c;
+
   a {
     color: #272727;
   }
