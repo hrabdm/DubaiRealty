@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 70" width="21" height="70">
+	<title>Новий проект</title>
+	<defs>
+		<image  width="21" height="70" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAABGAQMAAAAZw02MAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAANSURBVHicY2AYBdgAAAEYAAHJXtzTAAAAAElFTkSuQmCC"/>
+		<image width="21" height="14" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAOCAYAAADABlfOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAElSURBVHgBtZPBTcNAEEVnNnilKJeUkCtSDqSDcIuwE5kKUCrAHUAqACqwO0A5gLhBB0Yijo9QAhcUyZvZwWOJA1ZibKy84+zul/7/swAHALfJNDSZWXRHTx/QElrPLskSKst052jnmeNxH1qQrc5OGChwzFek9PDxNRdeWN37t/Amngw6iKFBOsXRy6eSYS4cWYtL0r0baIgIan10nyk67x7viNC8edeUelc19UCcUTJ9F+uVF7OVG9UVpsSL8/tBea7KA8c4AVjwOZ1dQAXb1A2thaUePtxCHTj2+7R299oSJxIVNGWTTgaUuLEUURaUiKreqn0H0iQxz6XZH+EiEst+votBlSjCH+Q2x6gwZMtz7HCxiztXpynScBFF+juK1jT5bd+WjpovbQtwYAAAAABJRU5ErkJggg=="/>
+		<image width="13" height="22" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAWCAYAAAAb+hYkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEfSURBVHgBnZNBTsMwEEXHSRsFwaLcoFskKjUnAHaFOCicgB4BTtDeIByGSuzKDSIVkixLb8CiqDSMbTwVkVCgjd2/sTz204z+6APso/I1vBNZmK7SQdeG0+DVUGR8L7CPOZ/SaQWuikGXRsX8MrYH83AuCj7a9sepFw5Ont6cdTtQEvq7wK36euEPumtSrzMDcMxcOHPXyxsWPL+DqWiXmEXzaiWNnSrhjMe648gplxeOKaQY6NEUfPp+xwworm9Rr4HWQfdWE0C2Sylit/wIWj9G7IREHiVCyGPvdBL8rv8LqfS8I/zDRKJaeL3Jff39jxFkq/SOpgrZot17HEOTCKCI4CwagokoEgQYR4OisElvYRhC3KTWAqhEbtn8/wbAzZUNBZJ3BQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<use id="Group 93" href="#img2" transform="matrix(1,0,0,1,0,0)"/>
+	<use id="Group 93 (1)" href="#img3" transform="matrix(1,0,0,1,8,47)"/>
+</svg>
