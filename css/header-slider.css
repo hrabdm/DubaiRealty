@@ -93,7 +93,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   border-left: solid 5px #fcd54c;
-  grid-column: 18/66;
+  grid-column: 18/73;
   grid-row: 28/66;
 }
 .header-slider .slider__greeting::before, .header-slider .slider__greeting::after {
