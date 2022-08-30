@@ -38,3 +38,50 @@
   color: #E8E8E8;
   margin: 13px 65px 40px;
 }
+
+@media (max-width: 900px) {
+  .faq {
+    margin-bottom: 70px;
+  }
+  .faq h2 {
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 40px;
+  }
+  .faq .faq__accordion h4 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .faq .faq__accordion p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .faq .faq__accordion h4 {
+    padding: 15px 0;
+  }
+}
+@media (max-width: 768px) {
+  .faq .faq__accordion p {
+    margin: 13px 15px 15px;
+  }
+}
+@media (max-width: 650px) {
+  .faq {
+    margin-bottom: 50px;
+  }
+  .faq h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .faq .faq__accordion h4 {
+    font-size: 12px;
+    line-height: 16px;
+    -webkit-padding-end: 5px;
+            padding-inline-end: 5px;
+  }
+  .faq .faq__accordion p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

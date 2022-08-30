@@ -41,6 +41,11 @@ body {
     padding: 0 15px;
   }
 }
+@media (max-width: 900px) {
+  [class*=__container] {
+    padding: 0 25px;
+  }
+}
 /* ======================= */
 #overlay {
   position: fixed;

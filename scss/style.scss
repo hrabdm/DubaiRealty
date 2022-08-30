@@ -46,6 +46,7 @@ body {
 @media (max-width: 1110px) {
   [class*='__container'] {
     // max-width: 970px;
+
   }
 
 }
@@ -53,19 +54,23 @@ body {
 @media (max-width: 900px) {
   [class*='__container'] {
     // max-width: 750px;
+    padding: 0 25px;
   }
 
 
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
 
   [class*='__container'] {
+
     // max-width: none;
   }
 }
 
-@media (max-width: 520px) {}
+@media (max-width: 520px) {
+  padding: 0 20px;
+}
 
 /* ======================= */
 
