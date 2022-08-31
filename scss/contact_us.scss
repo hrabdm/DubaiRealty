@@ -47,3 +47,69 @@
         }
     }
 }
+
+@media (max-width: 1800px) {}
+
+@media (max-width: 1110px) {}
+
+@media (max-width: 900px) {
+    .contact-us {
+        height: 255px;
+        padding-top: 48px;
+        margin-bottom: 70px;
+    }
+
+    .contact-us h3 {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 0px;
+    }
+
+    .contact-us h2 {
+        font-size: 70px;
+        line-height: 87px;
+        margin-bottom: 0;
+    }
+
+    .contact-us .contact-us__form input[type=email] {
+        width: 286px;
+        height: 41px;
+        text-indent: 28px;
+    }
+
+    .contact-us .contact-us__form input[type=button] {
+        height: 41px;
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 650px) {
+    .contact-us {
+        height: 264px;
+        padding-top: 49px;
+        margin-bottom: 43px;
+    }
+
+    element.style {}
+
+    .contact-us h3 {
+        margin-bottom: 19px;
+    }
+
+    .contact-us h2 {
+        font-size: 50px;
+        line-height: 62px;
+        margin-bottom: 29px;
+    }
+
+    .contact-us .contact-us__form input[type=email] {
+        width: 180px;
+        text-indent: 28px;
+    }
+
+    .contact-us .contact-us__form input[type=button] {
+        width: 106px;
+    }
+
+}
