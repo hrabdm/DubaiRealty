@@ -4,8 +4,10 @@ let blockOut = document.querySelector('.testimonials__out');
  let articles = document.querySelectorAll('.article');
  let dots2 = document.querySelectorAll('.testimonials .dots__dot');
  let indexDot = 0;
-let clickUp = 3;
-let clickDown = 0;
+let clickUp = 2;
+let clickDown = 1;
+let errorUp;
+let errorDown;
 
 //меняю порядок элементов в массиве, т.к. они в разных блоках
 articles = [articles[0], articles[2], articles[3], articles[1]];
@@ -14,15 +16,23 @@ articles = [articles[0], articles[2], articles[3], articles[1]];
      // клик по слайду
      elem.addEventListener('click', event => {
 
+        //проверочная переменная 
+        errorUp = clickUp;
+        errorDown = clickDown;
+
          //перемещение слайдов и точек вправо
-         if (indexElem == clickUp) {
+         if (indexElem == clickUp && clickUp != errorDown) {
             articles = [articles[1], articles[2], articles[3], articles[0]];
             if (clickUp == 3) {
                 clickUp = 0;
-                clickDown = 1;
+                clickDown = 3;
             } else {
+                if (clickUp == 0) {
+                    clickDown = 0;
+                } else {
+                    clickDown++;
+                }
                 clickUp++;
-                clickDown++;
             }
             if (indexDot < 2) {
                 indexDot++;
@@ -32,14 +42,18 @@ articles = [articles[0], articles[2], articles[3], articles[1]];
          }
 
          //перемещение слайдов и точек влево
-         if (indexElem == clickDown) {
+         if (indexElem == clickDown && clickDown != errorUp) {
             articles = [articles[3], articles[0], articles[1], articles[2]];
             if (clickDown == 0) {
                 clickDown = 3;
-                clickUp = 2;
+                clickUp = 0;
             } else {
+                if (clickDown == 3) {
+                    clickUp = 3;
+                } else {
+                    clickUp--;
+                }
                 clickDown--;
-                clickUp--;
             }
             if (indexDot > 0) {
                 indexDot--;
