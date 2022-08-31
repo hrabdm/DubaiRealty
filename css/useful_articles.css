@@ -174,3 +174,19 @@
     width: 100%;
   }
 }
+@media (max-width: 650px) {
+  .useful-articles .useful-articles__header a {
+    font-size: 8px;
+    line-height: 19px;
+  }
+  .useful-articles .useful-articles__header h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .useful-articles .useful-articles__header a img {
+    margin-left: 10px;
+  }
+  .useful-articles .useful-articles__header {
+    margin-bottom: 20px;
+  }
+}
